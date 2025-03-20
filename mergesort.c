@@ -60,6 +60,8 @@ int main(int argc, char** argv)
 		printf("%s", (arr[k] < 10 ? "^\n" : "^^\n") );
 		printf("Rank %s element: %i\n\n",inputK,arr[k]);
 	}
+
+	free(arr),free(arrinput);
 	return 0;
 }
 
